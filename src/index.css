@@ -48,18 +48,19 @@ body{
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  z-index: 999;
 }
 
 .foto-ampliada-container{
   max-width: 90%;
   max-height: 90%;
   display: flex;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .foto-ampliada-container img{
-  max-height: 100% !important;
-  max-width: 45% !important;
+  max-height: 80% !important;
+  width: 80% !important; 
 }
 
 .spinner-container {
