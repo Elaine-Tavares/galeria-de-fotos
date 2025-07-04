@@ -134,6 +134,9 @@ h1{
   position: fixed;
   bottom: 0;
   width: 100%;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
 }
 
 .footer a {
